@@ -1,0 +1,87 @@
+.main{
+    display: grid;
+    height: 500px;
+    grid-template-columns: .5fr 1fr .5fr;
+}
+
+.person1{
+    display: flex;
+    background-color: rgb(75, 66, 66);
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+#p1{
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    animation: mymove 5s infinite;
+}
+.person1 > h2 {
+    margin: auto;
+}
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(0, 255, 221);}
+  }
+
+
+@keyframes background {
+    0%{
+        background-color: #F94C10;
+    }
+    50%{
+        background-color: #C70039 ;
+    }
+    75%{
+        background-color: #F8DE22 ;
+    }
+    100%{
+        background-color: #900C3F;
+    }
+}
+
+.lovescore{
+    display: flex;
+    width: 100%;
+    animation: background 6s infinite;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#resultstexts{
+    align-self: center;
+    margin-left: auto;
+}
+
+#results{
+    align-self: center;
+    font-size: 100px;
+   animation: numberfade 4s infinite ;
+}
+
+.person2{
+    display: flex;
+    background-color: rgb(75, 66, 66);
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+#p2{
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    animation: mymove 5s infinite;
+}
+.person2 > h2 {
+    margin: auto;
+}
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(0, 255, 221);}
+  }
+
+@keyframes numberfade{
+    50%{text-shadow: 5px 5px 1px rgb(253, 253, 253) ;}
+}
