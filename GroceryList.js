@@ -1,4 +1,4 @@
-// var item = document.getElementById("Item").value;
+// just wanted to do something like this to continue cementing the concept of using a for loop to add event listeners to a click on multiple buttons
 
 for(i = 0; i < document.querySelectorAll(".typeOfGrocery").length; i++){
     document.querySelectorAll(".typeOfGrocery")[i].addEventListener("click", function(){
@@ -43,11 +43,5 @@ for(i = 0; i < document.querySelectorAll(".typeOfGrocery").length; i++){
   
     
 }
-
-// function addItemToList(item){
-//     var node = document.createElement("li")
-//     var itemnode = document.createTextNode(`${item}`);
-//     node.appendChild(itemnode)
-// }
 
 
