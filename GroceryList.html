@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="GroceryList.css">
+</head>
+<body>
+    
+    <input type="text" name="itemToList" id="Item">
+    <label for="itemToList" style="font-size: 36px; text-shadow: 1px 1px 10px white;">Item</label>
+    <br>
+
+    <div class="addToList">
+        <button class="typeOfGrocery" type="submit">Meats</button>
+        <button class="typeOfGrocery"  type="submit">Pantry</button>
+        <button class="typeOfGrocery"  type="submit">Cold</button>
+    </div>
+
+    <div class="grocery-container">
+
+        <div class="list1">
+            <div class="meats" style="text-align: center;">
+                <p>Meats</p>
+                <hr>
+                <ul id="meatList">
+
+                </ul>
+            </div>
+        </div>
+        <div class="list2" style="text-align: center;">
+            <p>Pantry Stuff</p>
+            <hr>
+            <ul id="pantryList"></ul>
+        </div>
+        <div class="list3" style="text-align: center;">
+            <p>Cold Stuff</p>
+            <hr>
+            <ul id="coldList"></ul>
+        </div>
+    </div>
+
+    <script src="GroceryList.js"></script>
+</body>
+</html>
