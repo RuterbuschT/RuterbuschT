@@ -48,6 +48,10 @@ switch (key) {
 
         break;
 
+    case " ":
+        document.getElementById("event-log").textContent = " ";
+        break;
+
     default: alert("hit an appropriate key!")
     break;
 }
@@ -62,10 +66,19 @@ function logKey(key){
 }
 
 document.addEventListener("keydown", (event) =>{
+    if(event.key === " ") {
+    }
+    else{
     logKey(`"${event.key}" was pressed <br>`);
+    }
 })
 
 document.getElementById("event-logReset").addEventListener("click" , (event) =>{
+    
     document.getElementById("event-log").textContent = " ";
+
+    if(event.key === " "){
+        document.getElementById("event-log").textContent = " ";
+    }
 
 })
