@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RNGuessingGame.css">
+</head>
+<body>
+    
+    <h1>RNGuessing Game <br> 1-100</h1>
+
+    <div class="humanInput">
+
+        <input id="humanNumber" type="number">
+        <br><br>
+        <button id="submit" type="submit">Submit</button>
+        <button id="reset">Reset</button>
+
+
+
+    </div>
+
+    <section class="gameContainer">
+
+        <div class="flip-card-player">
+            <div class="flip-card-inner">
+                <div  class="flip-card-front">
+                    <h3>Player Guess</h3>
+                </div>
+
+                <div class="flip-card-back">
+                    <div class="humanGuess">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="result"></h2>
+
+        <div class="flip-card-computer">
+            <div class="computer-card-inner">
+                <div  class="flip-card-front">
+                    <h3>Computer's Number</h3>
+                </div>
+
+                <div class="flip-card-back">
+                    <div class="computerNum">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="RNGuessingGame.js"></script>
+</body>
+</html>
