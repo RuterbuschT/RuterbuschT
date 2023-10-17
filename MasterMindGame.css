@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid black;
+}
+.guesses-container{
+    margin: 50px 10px;
+    width: auto;
+}
+/* Add this CSS for guessed lines */
+.guess-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed for spacing between guessed lines */
+}
+
+.guess-line .selected-color {
+    margin-right: 10px; /* Adjust as needed for spacing between guessed colors */
+}
+
+.selected-color {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%;
+    border: 3px solid rgb(228, 220, 220);
+    box-shadow: 0 0 5px black, inset 0px 0px 11px black;
+    margin-right: 10px; /* Adjust as needed for spacing between guessed colors */
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10.5rem;            /* Footer height */
+  text-align: center;
+}
+
+.instructions{
+    font-size: 16px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgb(206, 193, 193), 0 0 1em #f69d3c, 0 0 0.2em blue;
+}
+
+
+.buttons{
+    display: flex;
+    margin-top: 50%;
+    
+}
+.buttons > *{
+   
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(228, 220, 220);
+    box-shadow: 0 0 5px black,
+    inset 0px 0px 11px black;
+    
+}
+.buttons > *:active {
+    background-color: #fcfdfc;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.picked-color {
+    
+    display: inline-flex;
+    flex-direction: row;
+    margin: 30px 10px;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(228, 220, 220);
+    box-shadow: 0 0 5px black,
+    inset 0px 0px 11px black;
+}
+
+#submit{
+    border-radius: 10%;
+    border-left: 50%;
+    width: fit-content;
+}
+
+.in-code{
+    border-color: yellow;
+}
+
+.in-coderightspot{
+    border-color: pink;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.black{
+    background-color: black;
+}
+.gray{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#submit{
+    border-radius: 10%;
+    border-left: 50%;
+    width: fit-content;
+}
+
+
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.black{
+    background-color: black;
+}
+.gray{
+    background-color: gray;
+}
